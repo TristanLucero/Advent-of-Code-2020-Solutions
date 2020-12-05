@@ -34,7 +34,6 @@ def main():
                 validFields[1] = 1
             elif field == requiredFields[2] and 2020 <= int(fieldVal) <= 2030:
                 validFields[2] = 1
-            #NEED TO CHECK FOR VALUES STILL
             elif field == requiredFields[3] and fieldVal.endswith("cm") or fieldVal.endswith("in"):
                 if fieldVal.endswith("cm"):
                     fieldVal = fieldVal.replace("cm", "")
